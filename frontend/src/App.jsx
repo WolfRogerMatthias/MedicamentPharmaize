@@ -18,7 +18,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('/medications.json')
+    fetch(`${import.meta.env.BASE_URL}medications.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`Failed to load medications (HTTP ${res.status})`);
         return res.json();
