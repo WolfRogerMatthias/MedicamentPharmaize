@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  background: #f5f7fa;
+  color: #1a202c;
+  line-height: 1.5;
+}
+
+.app,
+.medication-detail {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem;
+}
+
+.app-header {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.app-header h1 {
+  font-size: 1.9rem;
+  color: #2c5282;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  color: #718096;
+  font-size: 0.95rem;
+}
+
+/* Search bar */
+.search-bar {
+  position: relative;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 0.85rem 2.5rem 0.85rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+  background: white;
+  transition: border-color 0.15s;
+}
+
+.search-bar input:focus {
+  border-color: #4299e1;
+}
+
+.search-clear {
+  position: absolute;
+  right: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #edf2f7;
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #4a5568;
+  font-size: 0.85rem;
+}
+
+.search-clear:hover {
+  background: #e2e8f0;
+}
+
+.result-count {
+  margin: 1rem 0 0.75rem;
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+/* Medication list */
+.medication-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.medication-card {
+  background: white;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s, transform 0.15s;
+  outline: none;
+}
+
+.medication-card:hover,
+.medication-card:focus {
+  border-color: #4299e1;
+  box-shadow: 0 2px 8px rgba(66, 153, 225, 0.15);
+  transform: translateY(-1px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.card-header h3 {
+  color: #2c5282;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.drug-class {
+  font-size: 0.72rem;
+  color: #4a5568;
+  background: #edf2f7;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.brand-names,
+.uses {
+  font-size: 0.875rem;
+  color: #4a5568;
+  margin-top: 0.25rem;
+}
+
+.label {
+  color: #718096;
+  font-weight: 500;
+}
+
+.empty,
+.status {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #718096;
+}
+
+.status-error {
+  color: #c53030;
+}
+
+/* Detail view */
+.back-button {
+  background: none;
+  border: none;
+  color: #4299e1;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.detail-header {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.detail-header h2 {
+  color: #2c5282;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.drug-class-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  background: #edf2f7;
+  color: #4a5568;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.detail-section {
+  background: white;
+  padding: 1.1rem 1.4rem;
+  border-radius: 8px;
+  margin-bottom: 0.85rem;
+  border: 1px solid #e2e8f0;
+}
+
+.detail-section h3 {
+  color: #2c5282;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+  font-weight: 600;
+}
+
+.detail-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.detail-section li {
+  padding: 0.2rem 0;
+  padding-left: 1rem;
+  position: relative;
+  color: #2d3748;
+}
+
+.detail-section li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #4299e1;
+}
+
+.detail-section p {
+  color: #2d3748;
+}

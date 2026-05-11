@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ibuprofen",
+    "name": "Ibuprofen",
+    "brandNames": ["Brufen", "Advil", "Nurofen", "Algifor", "Dolo-Spedifen"],
+    "activeIngredient": "Ibuprofen",
+    "drugClass": "NSAID",
+    "uses": [
+      "Headache",
+      "Mild to moderate pain",
+      "Fever",
+      "Inflammation",
+      "Menstrual cramps",
+      "Muscle aches",
+      "Toothache"
+    ],
+    "dosage": "Adults: 200-400 mg every 4-6 hours. Max OTC dose: 1200 mg/day. Prescription max: 2400 mg/day.",
+    "sideEffects": [
+      "Stomach upset",
+      "Heartburn",
+      "Nausea",
+      "Dizziness",
+      "Increased risk of GI bleeding with long-term use"
+    ],
+    "contraindications": [
+      "Active peptic ulcer",
+      "Severe heart failure",
+      "Severe renal impairment",
+      "Third trimester of pregnancy",
+      "Known hypersensitivity to NSAIDs or aspirin"
+    ],
+    "interactions": [
+      "Warfarin (increased bleeding risk)",
+      "ACE inhibitors (reduced antihypertensive effect)",
+      "Lithium (increased serum levels)",
+      "Methotrexate (increased toxicity)",
+      "SSRIs (increased GI bleeding risk)"
+    ],
+    "warnings": "Take with food to minimize GI side effects. Avoid prolonged use without medical supervision. Caution in elderly patients."
+  },
+  {
+    "id": "paracetamol",
+    "name": "Paracetamol (Acetaminophen)",
+    "brandNames": ["Dafalgan", "Panadol", "Tylenol", "Ben-u-ron"],
+    "activeIngredient": "Paracetamol",
+    "drugClass": "Analgesic / Antipyretic",
+    "uses": [
+      "Headache",
+      "Mild to moderate pain",
+      "Fever",
+      "Toothache",
+      "Back pain"
+    ],
+    "dosage": "Adults: 500-1000 mg every 4-6 hours. Max: 4 g/day (3 g/day in elderly or hepatic impairment).",
+    "sideEffects": [
+      "Generally well tolerated at therapeutic doses",
+      "Rare: skin rash, hypersensitivity reactions",
+      "Hepatotoxicity in overdose"
+    ],
+    "contraindications": [
+      "Severe hepatic impairment",
+      "Known hypersensitivity to paracetamol"
+    ],
+    "interactions": [
+      "Warfarin (chronic high doses may potentiate effect)",
+      "Alcohol (increased hepatotoxicity risk)",
+      "Enzyme-inducing drugs (carbamazepine, rifampicin) increase hepatotoxicity risk"
+    ],
+    "warnings": "Overdose can cause severe liver damage. Do not exceed maximum daily dose. Avoid alcohol during treatment."
+  },
+  {
+    "id": "amoxicillin",
+    "name": "Amoxicillin",
+    "brandNames": ["Clamoxyl", "Amoxil"],
+    "activeIngredient": "Amoxicillin",
+    "drugClass": "Beta-lactam antibiotic (aminopenicillin)",
+    "uses": [
+      "Respiratory tract infections",
+      "Otitis media",
+      "Urinary tract infections",
+      "Skin infections",
+      "Helicobacter pylori eradication (combination therapy)"
+    ],
+    "dosage": "Adults: 250-500 mg every 8 hours, or 500-875 mg every 12 hours, depending on indication.",
+    "sideEffects": [
+      "Diarrhea",
+      "Nausea",
+      "Skin rash",
+      "Candidiasis",
+      "Rare: Clostridioides difficile colitis"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to penicillins",
+      "History of severe immediate hypersensitivity reaction to a beta-lactam"
+    ],
+    "interactions": [
+      "Methotrexate (increased toxicity)",
+      "Allopurinol (increased risk of rash)",
+      "Oral contraceptives (theoretical reduced efficacy)",
+      "Probenecid (increased amoxicillin levels)"
+    ],
+    "warnings": "Complete the full prescribed course even if symptoms improve. Inform prescriber of any penicillin allergy."
+  },
+  {
+    "id": "metformin",
+    "name": "Metformin",
+    "brandNames": ["Glucophage", "Metfin"],
+    "activeIngredient": "Metformin hydrochloride",
+    "drugClass": "Biguanide antidiabetic",
+    "uses": [
+      "Type 2 diabetes mellitus (first-line)",
+      "Polycystic ovary syndrome (off-label)",
+      "Prediabetes (in selected patients)"
+    ],
+    "dosage": "Start 500 mg once or twice daily with meals; titrate up to a max of 2000-3000 mg/day in divided doses.",
+    "sideEffects": [
+      "Gastrointestinal upset (nausea, diarrhea, abdominal discomfort)",
+      "Metallic taste",
+      "Vitamin B12 deficiency with long-term use",
+      "Rare: lactic acidosis"
+    ],
+    "contraindications": [
+      "eGFR < 30 ml/min/1.73 m²",
+      "Acute or chronic metabolic acidosis",
+      "Severe hepatic impairment",
+      "Conditions predisposing to tissue hypoxia"
+    ],
+    "interactions": [
+      "Iodinated contrast media (temporary discontinuation may be required)",
+      "Alcohol (increased risk of lactic acidosis)",
+      "Cimetidine (increased metformin levels)"
+    ],
+    "warnings": "Take with food. Monitor renal function periodically. Pause before procedures involving IV contrast."
+  },
+  {
+    "id": "lisinopril",
+    "name": "Lisinopril",
+    "brandNames": ["Zestril", "Prinivil"],
+    "activeIngredient": "Lisinopril",
+    "drugClass": "ACE inhibitor",
+    "uses": [
+      "Hypertension",
+      "Heart failure",
+      "Post-myocardial infarction",
+      "Diabetic nephropathy"
+    ],
+    "dosage": "Adults: 10-20 mg once daily; titrate up to a max of 40 mg/day.",
+    "sideEffects": [
+      "Dry persistent cough",
+      "Dizziness (especially on first dose)",
+      "Hyperkalemia",
+      "Angioedema (rare but serious)",
+      "Acute kidney injury in susceptible patients"
+    ],
+    "contraindications": [
+      "Pregnancy (all trimesters)",
+      "History of ACE-inhibitor-induced angioedema",
+      "Bilateral renal artery stenosis",
+      "Concomitant aliskiren in diabetic patients"
+    ],
+    "interactions": [
+      "Potassium-sparing diuretics (hyperkalemia)",
+      "NSAIDs (reduced efficacy, renal impairment)",
+      "Lithium (increased serum levels)",
+      "Aliskiren (avoid in diabetes/renal impairment)"
+    ],
+    "warnings": "Monitor renal function and serum potassium. Discontinue immediately if angioedema occurs."
+  },
+  {
+    "id": "omeprazole",
+    "name": "Omeprazole",
+    "brandNames": ["Antra", "Losec", "Prilosec"],
+    "activeIngredient": "Omeprazole",
+    "drugClass": "Proton pump inhibitor (PPI)",
+    "uses": [
+      "Gastroesophageal reflux disease (GERD)",
+      "Peptic ulcer disease",
+      "Helicobacter pylori eradication (combination therapy)",
+      "Zollinger-Ellison syndrome",
+      "NSAID-induced ulcer prophylaxis"
+    ],
+    "dosage": "Adults: 20-40 mg once daily, ideally 30 minutes before breakfast.",
+    "sideEffects": [
+      "Headache",
+      "Diarrhea",
+      "Abdominal pain",
+      "Long-term: increased risk of fractures, hypomagnesemia, B12 deficiency, C. difficile infection"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to omeprazole or other PPIs",
+      "Concomitant use with rilpivirine or nelfinavir"
+    ],
+    "interactions": [
+      "Clopidogrel (reduced antiplatelet effect)",
+      "Methotrexate (high doses)",
+      "Digoxin (increased absorption)",
+      "Iron and B12 (reduced absorption)"
+    ],
+    "warnings": "Reassess need for long-term therapy regularly. Use the lowest effective dose for the shortest duration."
+  },
+  {
+    "id": "salbutamol",
+    "name": "Salbutamol (Albuterol)",
+    "brandNames": ["Ventolin", "Sultanol"],
+    "activeIngredient": "Salbutamol",
+    "drugClass": "Short-acting beta-2 agonist (SABA)",
+    "uses": [
+      "Acute asthma attack",
+      "Exercise-induced bronchoconstriction",
+      "COPD with reversible component",
+      "Bronchospasm relief"
+    ],
+    "dosage": "Inhaler: 1-2 puffs (100 mcg/puff) as needed, max 8 puffs/24 h. Nebulizer: 2.5-5 mg up to four times daily.",
+    "sideEffects": [
+      "Tremor (especially fine hand tremor)",
+      "Palpitations / tachycardia",
+      "Headache",
+      "Hypokalemia (at high doses)",
+      "Muscle cramps"
+    ],
+    "contraindications": [
+      "Known hypersensitivity to salbutamol",
+      "Caution in severe cardiovascular disease and hyperthyroidism"
+    ],
+    "interactions": [
+      "Non-selective beta-blockers (antagonism)",
+      "Other sympathomimetics (additive effects)",
+      "MAO inhibitors and tricyclic antidepressants (caution)",
+      "Loop and thiazide diuretics (additive hypokalemia)"
+    ],
+    "warnings": "Increasing frequency of use suggests worsening asthma control - reassess therapy. Not a replacement for long-term controller medication."
+  },
+  {
+    "id": "cetirizine",
+    "name": "Cetirizine",
+    "brandNames": ["Zyrtec", "Reactine"],
+    "activeIngredient": "Cetirizine dihydrochloride",
+    "drugClass": "Second-generation H1-antihistamine",
+    "uses": [
+      "Allergic rhinitis (seasonal and perennial)",
+      "Chronic urticaria",
+      "Allergic conjunctivitis",
+      "Pruritus associated with allergic reactions"
+    ],
+    "dosage": "Adults and children > 12 y: 10 mg once daily. Reduce dose in renal impairment.",
+    "sideEffects": [
+      "Drowsiness (less than first-generation antihistamines)",
+      "Dry mouth",
+      "Fatigue",
+      "Headache"
+    ],
+    "contraindications": [
+      "Severe renal impairment (eGFR < 10 ml/min)",
+      "Known hypersensitivity to cetirizine, levocetirizine, or hydroxyzine"
+    ],
+    "interactions": [
+      "Alcohol and other CNS depressants (additive sedation)",
+      "Theophylline (slightly reduced cetirizine clearance at high doses)"
+    ],
+    "warnings": "May cause drowsiness - caution when driving or operating machinery. Adjust dose in renal impairment."
+  }
+]
